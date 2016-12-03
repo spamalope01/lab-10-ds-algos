@@ -30,7 +30,7 @@
   * ensure that all of your codes has test coverage
 
 ## Directions
-*You should have the `.push()` and `.peek()` methods of a Stack, and the `.enqueue() method of the Queue.*
+*You should have the `.push()` and `.peek()` methods of a Stack, and the `.enqueue()` method of the Queue.*
 * Complete the implementation of of the Stack:
   * `.push()`, `.pop()`, and `.peek()`
 * Complete the implementation of of the Queue:
