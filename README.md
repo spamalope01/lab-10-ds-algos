@@ -3,7 +3,8 @@
 # Data Structures & Algorithms
 
 ### Stacks and Queues
-[Data Structures: Stacks](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
+
+[Data Structures: Stacks](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))\n
 [Data Structures: Queues](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
 
 ## To Submit this Assignment
