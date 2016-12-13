@@ -30,16 +30,20 @@
   * ensure that all of your codes has test coverage
 
 ### Complete your Data Structures
-*In lecture/whiteboarding practice we completed the `.push()` and `.peek()` methods of a Stack, and the `.enqueue()` method of the Queue.*
-* Complete the implementation of of the Stack:
+*In lecture/whiteboarding practice we completed each of the methods for Stacks and Queues.*
+* Implementation the Stack in your own modules:
   * `.push()`, `.pop()`, and `.peek()`
-* Complete the implementation of of the Queue:
+* Implementation the Queue in your own modules:
   * `.enqueue()` and `.dequeue()`
 * Each of your data structures should be located in it's own module.
   * i.e. `./lib/stack.js` and `./lib/queue.js`
 * Write clean test coverage for your data structures
   * Ensure that you've covered any edge cases and tested thoroughly
   * **Write at least three different tests (`it('should do something')` blocks) for each method**
+  * **NOTE**: When writing tests, you should be considering constraints and validations that your code should enable. You may want to refactor your modules in order to enable/disable specific variants of your incoming Node data.
+    * For example:
+      * Should the value of each node be restricted to an integer data type? (Your choice will be the right answer, but implement and test it!)
+      * Do Nodes have to have unique values?
 
 ### Bonus
 * 2pts: Implement the ability to take an array of values as an argument to your Stack and Queue constructors, and create new, ordered values in the data structure for each value in the array.
