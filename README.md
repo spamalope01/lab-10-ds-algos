@@ -50,7 +50,7 @@
 * Located on Stack A are six disks
 * The disc on bottom is the largest, and each disc above being smaller than that below
 
-![towers](http://www.artesania-alla.es/261-564-thickbox/tower-of-hanoi.jpg)
+![towers](http://ecx.images-amazon.com/images/I/41OgWYImqaL._SX300_.jpg)
 
 * The objective of the puzzle is to move the entire stack of disks from A to C, obeying the following rules:
   * Only one disk can be moved at a time
