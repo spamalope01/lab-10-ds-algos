@@ -47,6 +47,7 @@
 ## Code Challenge: Towers of Hanoi
 [Tower of Hanoi Wiki](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
 *The Wiki will provide a ton of information!*
+
 ![towers](http://ecx.images-amazon.com/images/I/41OgWYImqaL._SX300_.jpg)
 
 ### Directions
