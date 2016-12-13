@@ -52,7 +52,7 @@
 
 ![towers](http://ecx.images-amazon.com/images/I/41OgWYImqaL._SX300_.jpg)
 
-* The objective of the puzzle is to move the entire stack of disks from A to C, obeying the following rules:
+* The objective of the puzzle is to move the entire stack of disks from the starting stack to a new stack (i.e. from A to C, or A to B), obeying the following rules:
   * Only one disk can be moved at a time
   * Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack i.e. a disk can only be moved if it is the uppermost disk on a stack
   * No disk may be placed on top of a smaller disk
