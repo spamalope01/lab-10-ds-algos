@@ -1,19 +1,25 @@
-let Node = require('./node');
-let Queue = module.exports = function(){
-  let newNode = new Node(val)
-  if(!this.back) {
-    this.back = newNode
-    this.front = this.back
-    return
-  } else {
-    this.back.prev = newNode
-    this.back = newNode
-  }
+let Node = require('./node.js');
+/*
+let val;
+let newNode = new Node(val);
+*/
 
-}
+
+let Queue = function(){
+  this.front = null;
+  this.back = null;
+};
 
 Queue.prototype.enqueue  = function(val) {
-  this.back = new Node(val, this.back)
+  let newNode = new Node(val);
+  if(!this.back) {
+    this.back = newNode;
+    this.front = this.back;
+    return;
+  } else {
+    this.back.prev = newNode;
+    this.back = this.back.prev;
+  }
 };
 
 Queue.prototype.dequeue = function(){
@@ -24,6 +30,8 @@ Queue.prototype.dequeue = function(){
     return temp.val;
   } else {
     this.front = temp.prev;
-    rturn temp.val;
+    return temp;
   }
 };
+
+module.exports = Queue;
